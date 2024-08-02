@@ -3,7 +3,7 @@ import LoginForm from "@/app/_components/login/LoginForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "login | LCMS dashboard",
+  title: "login",
 };
 export default function LoginPage() {
   return (

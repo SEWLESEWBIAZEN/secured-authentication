@@ -1,5 +1,4 @@
 "use client";
-
 import { useActionState, useEffect } from "react";
 // import { authenticate } from "@/app/_lib/actions/auth";
 // import { CircleAlert, CircleUserRound, Eye } from "lucide-react";
@@ -41,13 +40,13 @@ export default function LoginForm() {
         <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
           <div className="max-w-md w-full">
             <a href="#">
-              <Image
+              {/* <Image
                 src="/images/ethiopian.png"
                 alt="logo"
                 width={400}
                 height={300}
                 className="w-40 mb-8 mx-auto block"
-              />
+              /> */}
             </a>
             <div className="p-8 rounded-2xl bg-white shadow">
               <h2 className="text-gray-800 text-center text-lg font-bold">
